@@ -1,0 +1,6 @@
+{
+  "rust-analyzer.linkedProjects": [
+    "Cargo.toml",
+    "https-sniffer-ebpf/Cargo.toml"
+  ]
+}

@@ -1,0 +1,16 @@
+[package]
+name = "https-sniffer-common"
+version = "0.1.0"
+edition = "2021"
+
+[features]
+default = []
+user = ["aya"]
+
+[dependencies]
+aya = { git = "https://github.com/aya-rs/aya", optional = true }
+aya-bpf = { git = "https://github.com/aya-rs/aya" }
+
+
+[lib]
+path = "src/lib.rs"
